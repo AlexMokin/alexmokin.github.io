@@ -1,0 +1,139 @@
+.body_container {
+    font-family: Verdana, Geneva, sans-serif;
+    position: relative;
+    width: 930px;
+    padding: 10px 40px 10px 40px;
+    margin: 0.3em auto;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C0C0C0;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #888888;
+}
+
+@media print {
+    .pdf_link {
+        display: none;
+    }
+    .body_container {
+        box-shadow: none;
+        border:none;
+    }
+    .full_name {
+        margin-top: 0px;
+    }
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1.section_title {
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.job {
+    margin: 10px auto;
+    display: table;
+    width: 100%;
+}
+
+.job > div {
+    display: table-row;
+
+}
+
+.job > div > p, .job > div > h4 {
+    display: table-cell;
+}
+
+.job > div > p {
+    text-align: right;
+}
+
+table.my_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.my_table tr {
+    vertical-align: top;
+}
+
+
+table.my_table thead tr {
+    border-bottom: 1px solid black;
+}
+
+table.my_table thead tr td:nth-child(2) {
+    text-align: right;
+}
+
+table.my_table.ed_jobs {
+    margin-bottom: 20px;
+}
+table.my_table.ed_jobs thead tr td:nth-child(2) {
+    text-align: right;
+}
+
+table.my_table.ed_jobs tr td:first-child p {
+    margin-left: 0.5em;
+}
+
+table.my_table.ed_jobs tr td:first-child p {
+    margin-left: 0.5em;
+}
+
+table.my_table.ed_jobs tbody tr td:first-child {
+    background: #F5F5FF;
+}
+
+
+
+table.my_table td p {
+    margin:0.5em;
+}
+
+table.my_table tr td:first-child p {
+    margin-left: 30px;
+}
+
+.group_row {
+    padding-left: 5px;
+    background: #F5F5FF;
+    font-style: italic;
+    border-bottom: 1px solid black;
+}
+
+.group_row .not_italic {
+    font-style: normal;
+}
+
+table.my_table tr.group_row td p {
+    margin-left: 10px;
+
+}
+
+a {
+    outline: none;
+    padding: 2px 1px 0;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
